@@ -1,0 +1,149 @@
+.toplayer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 30px;
+    /* border: 2px red solid; */
+
+
+}
+.navbariconside{
+    display: flex;
+    align-items: center;
+}
+.navicon{
+    /* margin-left:7%; */
+    font-size: 25px;
+
+}
+.navicon2{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    
+}
+.navmidname{
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 165px;
+    
+
+}
+.links{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+padding: 0px 5px;
+display: flex;
+align-items: center;
+}
+.naveng{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.bottomlayer{
+    margin-top: 30px;
+    /* border: 2px red solid; */
+    width: 100%;
+}
+.forResponsiveNavbar li{
+    display: none;
+    /* border: 2px red solid; */
+}
+.bottomlayer ul{
+    /* margin-left: -19%; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.bottomlayer ul li{
+    
+    padding: 0px 20px;
+    list-style-type: none;
+    font-weight: 500;
+
+}
+
+.crossicons{
+    font-size: 21px;
+    margin-top: 3px;
+    margin-inline-start: 3px;
+}
+.togglednavbar{
+    position: absolute;
+    top: 80px;
+    left:0;
+    background-color: white;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    
+}
+.togglednavbar ul{
+    list-style-type:none;
+}
+
+.togglednavbar ul li{
+    padding: 10px 0px;
+}
+
+
+@media (max-width:725px) {
+    .links .usericon{
+        display: none;
+    }
+    .links .naveng{
+        display: none;
+    }
+    .navmidname{
+    padding-left: 0px;
+    }
+    .navbariconside{
+        margin-left: 23px;
+    }
+    .navicon2{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-left: 5px;
+    }
+    .bottomlayer .bottomlayernormal{
+        display: none;
+    }
+    .forResponsiveNavbar{
+        /* border: 2px red solid; */
+        max-width:100px;
+        font-size: 17px;
+        
+
+    }
+
+   
+
+    .forResponsiveNavbar li{
+        margin-left: -10px;
+        
+
+        /* border: 2px red solid; */
+
+        display: block;
+       
+        /* border: 2px red solid; */
+        
+        
+    }
+    .forResponsiveNavbar .ResponsiveNavShop{
+        color: rgb(175, 176, 177);
+        border-right: 1px solid  rgb(175, 176, 177);
+        padding-right: 6px;
+    }
+    
+}
